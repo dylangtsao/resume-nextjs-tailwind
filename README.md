@@ -1,4 +1,4 @@
-Resume created with Next.js and tailwindcss.
+Responsive resume created with Next.js and tailwindcss.
 
 To run the code, follow the instructions below:
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
