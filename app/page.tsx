@@ -135,7 +135,7 @@ export default function Home() {
         <h1 className="font-bold pt-1">LANGUAGE</h1>
         <li className="px-3">Fluent in English and Chinese</li>
         <h1 className="font-bold pt-1">INTERESTS</h1>
-        <li className="px-3">
+        <li className="px-3 pb-14">
           Continous learning, Fitness, Health, Music
         </li>
         
