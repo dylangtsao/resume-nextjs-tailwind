@@ -10,6 +10,7 @@ export default function Home() {
         <nav className="flex justify-between py-8 mx-5 pb-4 align-middle">
           <h1 className="text-2xl">DYLAN TSAO</h1>
           <ul className="flex justify-evenly items-center text-sm md:text-base lg:text-lg xl:text-lg 2xl:text-lg">
+          <a href="./resume-DylanTsao.pdf" className="cursor-pointer px-1 hover:underline">PDF</a>
           <a href="https://dylangtsao.github.io/" className="cursor-pointer px-1 hover:underline">WEBSITE</a>
           <a href="https://github.com/dylangtsao" className="cursor-pointer px-1 hover:underline">GITHUB</a>
           <a href="https://www.linkedin.com/in/dylan-tsao/" className="cursor-pointer px-1 hover:underline">LINKEDIN</a>
