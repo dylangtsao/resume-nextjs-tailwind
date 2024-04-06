@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <div className="pl-4 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <h2 className="italic">Bachelor of Science in Mathematics & Computer Science</h2>
-          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">May 2025</h2>
+          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">Aug 2021 - Dec 2024</h2>
         </div>
         <h2 className="pl-4">Coursework: System Programming, Computer Architecture, Graph Theory, Data Structures</h2>
         <h2 className="pl-4">GPA: 3.80</h2>
@@ -94,6 +94,22 @@ export default function Home() {
       <section className=" mx-4 text-center md:px-10 md:text-start xl:px-20">
         <h1 className="text-xl pt-5 pl-0">EXPERIENCE</h1>
         <hr className=" border-black pb-1"/>
+        <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
+          <h2 className="pl-4 font-bold">Software Engineering Intern</h2>
+          <h2>Feb 2024 - Present</h2>
+        </div>
+        <div className="pt-1 block md:flex justify-between italic pl-4">
+          <h2>Intel Corporation</h2>
+          <h2>Folsom, CA</h2>
+        </div>
+        
+        <div className="px-3 pl-10">
+          <li>
+          Enhanced system performance and efficiency by configuring, setting up, and debugging Intel 
+          architecture-based customer PC systems, achieving best-in-class status as measured by system analysis 
+          and evaluation, through the development and deployment of automation code 
+          </li>
+        </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <h2 className="pl-4 font-bold">CS124 Course Assistant</h2>
           <h2>Aug 2022 - Dec 2022</h2>
@@ -228,7 +244,7 @@ export default function Home() {
         <hr className=" border-black pb-1"/>
         <div className="flex flex-col md:flex-row">
           <h1 className="font-semibold pl-4 pr-1">Languages:</h1>
-          <h1>C/C++, Python, HTML/CSS, JavaScript, Typescript, Java, Tailwindcss, SQL</h1>
+          <h1>C/C++, Powershell, Python, HTML/CSS, JavaScript, Typescript, Java, Tailwindcss</h1>
         </div>
        <div className="flex flex-col md:flex-row">
           <h1 className="font-semibold pl-4 pr-1">Frameworks/Developer Tools</h1>
