@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
 
 // This is my resume made with tailwindcss and next.js
 export default function Home() {
@@ -12,21 +12,40 @@ export default function Home() {
           <div className="flex flex-col md:flex-row">
             <h2 className="flex items-center justify-center text-center text-sm md:text-base lg:text-lg xl:text-lg 2xl:text-lg">
               <h1 className="block md:hidden pr-1">|</h1>
-              <h1 className="pr-1"> (925) 699-3939 |</h1>  
-              <a href="mailto: dylangt2@illinois.edu" className="hover:underline">dylangt2@illinois.edu </a>
+              <h1 className="pr-1"> (925) 699-3939 |</h1>
+              <a
+                href="mailto: dylangt2@illinois.edu"
+                className="hover:underline"
+              >
+                dylangt2@illinois.edu{" "}
+              </a>
               <h1 className="block md:hidden pl-1">|</h1>
             </h2>
             <ul className="flex items-center text-sm md:text-base lg:text-lg xl:text-lg 2xl:text-lg justify-center">
               <h1 className="block px-1">|</h1>
-              <a href="https://www.linkedin.com/in/dylan-tsao/" className="cursor-pointer hover:underline">LinkedIn</a>
+              <a
+                href="https://www.linkedin.com/in/dylan-tsao/"
+                className="cursor-pointer hover:underline"
+              >
+                LinkedIn
+              </a>
               <h1 className="block px-1">|</h1>
-              <a href="https://github.com/dylangtsao" className="cursor-pointer hover:underline">Github</a>
+              <a
+                href="https://github.com/dylangtsao"
+                className="cursor-pointer hover:underline"
+              >
+                Github
+              </a>
               <h1 className="block px-1">|</h1>
-              <a href="https://dylangtsao.github.io/" className="cursor-pointer hover:underline">Website</a>  
+              <a
+                href="https://dylangtsao-io.vercel.app/"
+                className="cursor-pointer hover:underline"
+              >
+                Website
+              </a>
               <h1 className="block px-1 md:hidden">|</h1>
             </ul>
           </div>
-          
         </nav>
       </section>
       {/* Basic Info */}
@@ -43,17 +62,28 @@ export default function Home() {
       {/* Education */}
       <section className="text-center mx-4 md:px-10 md:text-start xl:px-20">
         <h1 className="text-xl pt-5">EDUCATION</h1>
-        <hr className=" border-black pb-1"/>
+        <hr className=" border-black pb-1" />
         <div className="pl-4 pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-          <h2 className="font-semibold">University of Illinois at Urbana-Champaign</h2>
-          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">Urbana, IL</h2>
+          <h2 className="font-semibold">
+            University of Illinois at Urbana-Champaign
+          </h2>
+          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">
+            Urbana, IL
+          </h2>
         </div>
         <div className="pl-4 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-          <h2 className="italic">Bachelor of Science in Mathematics & Computer Science</h2>
-          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">Aug 2021 - Dec 2024</h2>
+          <h2 className="italic">
+            Bachelor of Science in Mathematics & Computer Science
+          </h2>
+          <h2 className="pr-3 hidden lg:block md:block xl:block 2xl:block">
+            Aug 2021 - Dec 2024
+          </h2>
         </div>
-        <h2 className="pl-4">Coursework: System Programming, Computer Architecture, Graph Theory, Data Structures</h2>
-        <h2 className="pl-4">GPA: 3.80</h2>
+        <h2 className="pl-4">
+          Coursework: System Programming, Computer Architecture, Graph Theory,
+          Data Structures, Nonlinear Programming
+        </h2>
+        <h2 className="pl-4">GPA: 3.75</h2>
 
         {/* <div className="md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <h2 className="font-bold pt-3">TAIPEI AMERICAN SCHOOL (HS)</h2>
@@ -93,21 +123,23 @@ export default function Home() {
       {/* Experience */}
       <section className=" mx-4 text-center md:px-10 md:text-start xl:px-20">
         <h1 className="text-xl pt-5 pl-0">EXPERIENCE</h1>
-        <hr className=" border-black pb-1"/>
+        <hr className=" border-black pb-1" />
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-          <h2 className="pl-4 font-bold">Software Engineering Intern</h2>
+          <h2 className="pl-4 font-bold">Software Engineer Intern</h2>
           <h2>Feb 2024 - Present</h2>
         </div>
         <div className="pt-1 block md:flex justify-between italic pl-4">
           <h2>Intel Corporation</h2>
           <h2>Folsom, CA</h2>
         </div>
-        
+
         <div className="px-3 pl-10">
           <li>
-          Enhanced system performance and efficiency by configuring, setting up, and debugging Intel 
-          architecture-based customer PC systems, achieving best-in-class status as measured by system analysis 
-          and evaluation, through the development and deployment of automation code 
+            Enhanced system performance and efficiency by configuring, setting
+            up, and debugging Intel architecture-based customer PC systems,
+            achieving best-in-class status as measured by system analysis and
+            evaluation, through the development and deployment of automation
+            code
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
@@ -118,19 +150,23 @@ export default function Home() {
           <h2>University of Illinois at Urbana-Champaign</h2>
           <h2>Champaign, IL</h2>
         </div>
-        
+
         <div className="px-3 pl-10">
           <li>
-          Coordinated weekly office hours, effectively clarifying course concepts for 30+ students per week, 
-          answering questions on quizzes, and guiding machine projects, resulting in an increased understanding of course material
+            Coordinated weekly office hours, effectively clarifying course
+            concepts for 30+ students per week, answering questions on quizzes,
+            and guiding machine projects, resulting in an increased
+            understanding of course material
           </li>
           <li>
-          Demonstrated exceptional time management by dedicating 10 hours weekly, 
-          enhancing the quality of student support services, as evidenced by an increase in student satisfaction ratings
+            Demonstrated exceptional time management by dedicating 10 hours
+            weekly, enhancing the quality of student support services, as
+            evidenced by an increase in student satisfaction ratings
           </li>
           <li>
-          Accomplished strong communication skills by making complex computer science principles accessible,
-           as noticeable by an increase in student comprehensive rates based on pre- and post-lecture surveys
+            Accomplished strong communication skills by making complex computer
+            science principles accessible, as noticeable by an increase in
+            student comprehensive rates based on pre- and post-lecture surveys
           </li>
         </div>
         <div className="pt-3 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
@@ -141,31 +177,58 @@ export default function Home() {
           <h2 className="italic">University of Illinois at Urbana-Champaign</h2>
           <h2 className="italic">Remote</h2>
         </div>
-        
+
         <div className="px-3 pl-10">
           <li>
-            Actively engaged in a comprehensive, month-long program designed to enhance technical skill sets and inspire
-            innovative thinking through hands-on project experiences.
+            Actively engaged in a comprehensive, month-long program designed to
+            enhance technical skill sets and inspire innovative thinking through
+            hands-on project experiences.
           </li>
           <li>
-            Participated in immersive tutorials and workshops on Chatbots, Flask, Command Line Programs, and Game
-            Development, effectively incorporating these skills into various projects.
+            Participated in immersive tutorials and workshops on Chatbots,
+            Flask, Command Line Programs, and Game Development, effectively
+            incorporating these skills into various projects.
           </li>
           <li>
-            Utilized in-depth understanding of command-line interfaces to create efficient, user-friendly command-line
-            programs.
+            Utilized in-depth understanding of command-line interfaces to create
+            efficient, user-friendly command-line programs.
           </li>
           <li>
-            Collaborated within a community of like-minded individuals, refining teamwork and communication skills, while
-            also working independently to create unique software solutions.
+            Collaborated within a community of like-minded individuals, refining
+            teamwork and communication skills, while also working independently
+            to create unique software solutions.
           </li>
         </div>
-        
       </section>
       {/* Projects */}
       <section className=" mx-2 text-center align-center flex flex-col justify-center md:mx-4 md:px-10 md:text-start xl:px-20">
         <h1 className="text-xl pt-5 pl-0">PROJECTS</h1>
-        <hr className=" border-black pb-1"/>
+        <hr className=" border-black pb-1" />
+        <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
+          <div className="flex">
+            <h2 className="pl-4 font-bold">Neuralbook</h2>
+            <h2 className="pl-1 italic">
+              | Next.js, Javascript, Python, TailwindCSS, MongoDB, Rialway, Git
+            </h2>
+          </div>
+          <h2>May 2024 - Present</h2>
+        </div>
+        <div className="px-3 pl-10">
+          <li>
+            Successfully developing an AI-powered daily journaling app that
+            helps user seamlessly capture and analyze their daily thoughts and
+            activities
+          </li>
+          <li>
+            Designed and implemented a robust backend infrastructure, leveraging
+            cloud services and encryption to ensure data security, scalability,
+            and real-time processing.
+          </li>
+          <li>
+            Implemented industry best practices in front-end development, ensuring the app is visually appealing, adaptive to
+            various devices and screen sizes, and easy to navigate, contributing to higher user engagement and retention rates.
+          </li>
+        </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
             <h2 className="pl-4 font-bold">Grape Card</h2>
@@ -175,28 +238,35 @@ export default function Home() {
         </div>
         <div className="px-3 pl-10">
           <li>
-          Developing a credit card website by accurately mimicking the design and functionality of the Apple Card to
-          showcase and enhance front-end development skills
+            Developing a credit card website by accurately mimicking the design
+            and functionality of the Apple Card to showcase and enhance
+            front-end development skills
           </li>
           <li>
-          Utilizing a combination of Next.js and Typescript to create a responsive and interactive user interface, ensuring
-          seamless user experience that closely aligns with the industry’s renowned design standards
+            Utilizing a combination of Next.js and Typescript to create a
+            responsive and interactive user interface, ensuring seamless user
+            experience that closely aligns with the industry’s renowned design
+            standards
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
             <h2 className="pl-4 font-bold">Portfolio Website</h2>
-            <h2 className="pl-1 italic">| JavaScript, Vanta.js, CSS/SCSS, HTML, Git</h2>
+            <h2 className="pl-1 italic">
+              | JavaScript, Vanta.js, CSS/SCSS, HTML, Git
+            </h2>
           </div>
           <h2>May 2023 - Present</h2>
         </div>
         <div className="px-3 pl-10">
           <li>
-            Developed a portfolio website as my inaugural front-end project to showcase professional skills and projects
+            Developed a portfolio website as my inaugural front-end project to
+            showcase professional skills and projects
           </li>
           <li>
-            Implemented responsive design techniques ensuring the website offers an optimal viewing experience across various
-            devices and screen sizes to enhance user accessibility and engagement
+            Implemented responsive design techniques ensuring the website offers
+            an optimal viewing experience across various devices and screen
+            sizes to enhance user accessibility and engagement
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
@@ -208,12 +278,14 @@ export default function Home() {
         </div>
         <div className="px-3 pl-10">
           <li>
-            Developed a responsive resume by focusing on creating a visually appealing and adaptable layout across various
-            devices to showcase personal qualifications and experiences
+            Developed a responsive resume by focusing on creating a visually
+            appealing and adaptable layout across various devices to showcase
+            personal qualifications and experiences
           </li>
           <li>
-            Experimented with Tailwind CSS in the project, enhancing CSS skills and understanding of utility-first frameworks,
-            thereby improving the efficiency and maintainability of the website’s styling
+            Experimented with Tailwind CSS in the project, enhancing CSS skills
+            and understanding of utility-first frameworks, thereby improving the
+            efficiency and maintainability of the website’s styling
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
@@ -225,33 +297,41 @@ export default function Home() {
         </div>
         <div className="px-3 pl-10">
           <li>
-            Co-developed a unique flash-card program by enabling students to switch between various subject topics, thereby
-            enhancing memorization to maximize prolonged studying
+            Co-developed a unique flash-card program by enabling students to
+            switch between various subject topics, thereby enhancing
+            memorization to maximize prolonged studying
           </li>
           <li>
-            Ensured code quality and testing efficiency using Catch2 library for C++ and Mocha for JavaScript, adhering to
-            camelCase style guidelines and utilizing Clang-Tidy for code style checks and coverage computation
+            Ensured code quality and testing efficiency using Catch2 library for
+            C++ and Mocha for JavaScript, adhering to camelCase style guidelines
+            and utilizing Clang-Tidy for code style checks and coverage
+            computation
           </li>
           <li>
-            Adopted a planning strategy for incremental development by weekly rotation between front-end and back-end
-            groups to ensure balanced exposure and skill development across the project
+            Adopted a planning strategy for incremental development by weekly
+            rotation between front-end and back-end groups to ensure balanced
+            exposure and skill development across the project
           </li>
         </div>
       </section>
       {/* Skills */}
       <section className=" mx-4 text-center pb-20 md:px-10 md:text-start xl:px-20">
         <h1 className="text-xl pt-5 pl-0">SKILLS</h1>
-        <hr className=" border-black pb-1"/>
+        <hr className=" border-black pb-1" />
         <div className="flex flex-col md:flex-row">
           <h1 className="font-semibold pl-4 pr-1">Languages:</h1>
-          <h1>C/C++, Powershell, Python, HTML/CSS, JavaScript, Typescript, Java, Tailwindcss</h1>
+          <h1>
+            C/C++, Powershell, Python, HTML/CSS, JavaScript, Typescript, Java,
+            Tailwindcss, SQL
+          </h1>
         </div>
-       <div className="flex flex-col md:flex-row">
-          <h1 className="font-semibold pl-4 pr-1">Frameworks/Developer Tools</h1>
+        <div className="flex flex-col md:flex-row">
+          <h1 className="font-semibold pl-4 pr-1">
+            Frameworks/Developer Tools
+          </h1>
           <h1>React, Node.js, Next.js, Git, Docker, Cursor, VS Code</h1>
-       </div>
-        
+        </div>
       </section>
     </main>
-  )
+  );
 }
