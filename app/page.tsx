@@ -38,10 +38,10 @@ export default function Home() {
               </a>
               <h1 className="block px-1">|</h1>
               <a
-                href="https://dylangtsao-io.vercel.app/"
+                href="https://dylangtsao.com/"
                 className="cursor-pointer hover:underline"
               >
-                Website
+                Portfolio
               </a>
               <h1 className="block px-1 md:hidden">|</h1>
             </ul>
@@ -206,7 +206,9 @@ export default function Home() {
         <hr className=" border-black pb-1" />
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
-            <h2 className="pl-4 font-bold">Neuralbook</h2>
+            <h2 className="pl-4 font-bold">
+              <a href="https://neuralbook.io/" className="hover:underline">Neuralbook</a>
+            </h2>
             <h2 className="pl-1 italic">
               | Next.js, Javascript, Python, TailwindCSS, MongoDB, Rialway, Git
             </h2>
