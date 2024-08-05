@@ -14,10 +14,10 @@ export default function Home() {
               <h1 className="block md:hidden pr-1">|</h1>
               <h1 className="pr-1"> (925) 699-3939 |</h1>
               <a
-                href="mailto: dylangt2@illinois.edu"
+                href="mailto: dylangeoffreytsao@gmail.com"
                 className="hover:underline"
               >
-                dylangt2@illinois.edu{" "}
+                dylangeoffreytsao@gmail.com{" "}
               </a>
               <h1 className="block md:hidden pl-1">|</h1>
             </h2>
@@ -80,8 +80,8 @@ export default function Home() {
           </h2>
         </div>
         <h2 className="pl-4">
-          Coursework: System Programming, Computer Architecture, Graph Theory,
-          Data Structures, Nonlinear Programming
+          Coursework: Sys Programming, Comp Architecture, Graph Theory, Data
+          Structures, Intro to Algs & Models of Comp
         </h2>
         <h2 className="pl-4">GPA: 3.75</h2>
 
@@ -136,14 +136,15 @@ export default function Home() {
         <div className="px-3 pl-10">
           <li>
             Enhanced system performance and efficiency by configuring, setting
-            up, and debugging Intel architecture-based customer PC systems,
-            achieving best-in-class status as measured by system analysis and
-            evaluation, through the development and deployment of automation
-            code
+            up, and debugging Intel architecture-based customer PC systems.
+          </li>
+          <li>
+            Achieved best-in-class status as measured by system analysis and
+            evaluation through the development and deployment of automation code
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-          <h2 className="pl-4 font-bold">CS124 Course Assistant</h2>
+          <h2 className="pl-4 font-bold">Undergraduate Course Assistant</h2>
           <h2>Aug 2022 - Dec 2022</h2>
         </div>
         <div className="pt-1 block md:flex justify-between italic pl-4">
@@ -170,11 +171,11 @@ export default function Home() {
           </li>
         </div>
         <div className="pt-3 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
-          <h2 className="font-bold pl-4">Summer of Side Projects 2022</h2>
+          <h2 className="font-bold pl-4">Software Developer</h2>
           <h2>June 2022 - July 2022</h2>
         </div>
         <div className="block md:flex justify-between pl-4">
-          <h2 className="italic">University of Illinois at Urbana-Champaign</h2>
+          <h2 className="italic">Summer of Side Projects</h2>
           <h2 className="italic">Remote</h2>
         </div>
 
@@ -207,10 +208,12 @@ export default function Home() {
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
             <h2 className="pl-4 font-bold">
-              <a href="https://neuralbook.io/" className="hover:underline">Neuralbook</a>
+              <a href="https://neuralbook.io/" className="hover:underline">
+                Neuralbook
+              </a>
             </h2>
             <h2 className="pl-1 italic">
-              | Next.js, Javascript, Python, TailwindCSS, MongoDB, Rialway, Git
+              | Next.js, JavaScript, Python, TailwindCSS, MongoDB, Railway, Git
             </h2>
           </div>
           <h2>May 2024 - Present</h2>
@@ -227,14 +230,16 @@ export default function Home() {
             and real-time processing.
           </li>
           <li>
-            Implemented industry best practices in front-end development, ensuring the app is visually appealing, adaptive to
-            various devices and screen sizes, and easy to navigate, contributing to higher user engagement and retention rates.
+            Implemented industry best practices in front-end development,
+            ensuring the app is visually appealing, adaptive to various devices
+            and screen sizes, and easy to navigate, contributing to higher user
+            engagement and retention rates.
           </li>
         </div>
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
             <h2 className="pl-4 font-bold">Grape Card</h2>
-            <h2 className="pl-1 italic">| Next.js, Typescript, CSS, Git</h2>
+            <h2 className="pl-1 italic">| Next.js, TypeScript, CSS, Git</h2>
           </div>
           <h2>Aug 2023 - Present</h2>
         </div>
@@ -293,7 +298,7 @@ export default function Home() {
         <div className="pt-1 md:flex md:justify-between lg:flex lg:justify-between xl:flex xl:justify-between 2xl:flex 2xl:justify-between">
           <div className="flex">
             <h2 className="pl-4 font-bold">Alter-Flash</h2>
-            <h2 className="pl-1 italic">| C++, Javascript, NPM, Git, Docker</h2>
+            <h2 className="pl-1 italic">| C++, JavaScript, NPM, Git, Docker</h2>
           </div>
           <h2>Feb 2023 - May 2023</h2>
         </div>
@@ -323,15 +328,17 @@ export default function Home() {
         <div className="flex flex-col md:flex-row">
           <h1 className="font-semibold pl-4 pr-1">Languages:</h1>
           <h1>
-            C/C++, Powershell, Python, HTML/CSS, JavaScript, Typescript, Java,
-            Tailwindcss, SQL
+            C/C++, Powershell, Python, HTML/CSS, JavaScript, TypeScript, Java,
+            TailwindCSS, SQL
           </h1>
         </div>
         <div className="flex flex-col md:flex-row">
           <h1 className="font-semibold pl-4 pr-1">
             Frameworks/Developer Tools
           </h1>
-          <h1>React, Node.js, Next.js, Git, Docker, Cursor, VS Code</h1>
+          <h1>
+            React, Node.js, Next.js, Git, Docker, Cursor, VS Code, Railway
+          </h1>
         </div>
       </section>
     </main>
